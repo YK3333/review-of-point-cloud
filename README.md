@@ -20,6 +20,14 @@
     
       --> 提到激光扫描的参数优化
       
+    * [__`dimension of panels`__] [Automated dimensional quality assessment of precast concrete panels using terrestrial laser scanning](https://kdocs.cn/l/ssGVs4Sw0Xns)
+    
+      --> 这篇文章是比较正常的流程：_Data pre-processing_ --> _Edge and corner extraction_ -->  _Compensation for edge dimension loss_ --> _Dimension estimation and quality assessment_
+    
+      文章还提出一个边缘点提取的算法，即 **Vector-Sum Algorithm**
+    
+      讨论激光扫描的三个参数问题：<span style="color:green;">Scan distance  Angular resolution Incident angle</span>
+    
     * [__`组合结构装配关系`__]
     
     * [__`脚手架安全性`__]
@@ -40,7 +48,7 @@
 
       * [__`图像在点云中显示`__] [Concrete crack assessment using digital image processing and 3D scene reconstruction](https://kdocs.cn/l/sm1RhNMyNpso)
 
-        --> 基于多视角的三维重建，2D到3D的投影过程，有利于在BIM中形象展示
+        --> 基于多视角的三维重建，2D到3D的投影过程，有利于在BIM中形象展示，更主要的是投影与重建是的较大区域的裂缝可连接起来，同时克服传统 2D image 对拍摄角度的垂直要求，该方法有很好的的应用前景。
 
       * [__`神经网络 NET`__]
 
@@ -51,6 +59,10 @@
       * [__`image-based`__] [Development of Image Processing for Crack Detection on Concrete Structures through Terrestrial Laser Scanning Associated with the Octree Structure](https://kdocs.cn/l/seXtLmlA5sSW)
 
         --> 本文的方法很基础，就是使用Oc-tree将点云体素化并转化为2D的图片，然后基于成熟的 image processing 来检测裂缝。但是该方法仅限于识别裂缝，对于裂缝长度宽的的量化文章未做.。际上，点云到图像丢失信息较大，量化极不准确。
+        
+      * [__`UAV`__] []
+
+        --> 
 
     * deformation
 
@@ -64,11 +76,21 @@
 
         --> 本文主要是根据拱脚位移等几何运动学建立拱桥变形的点云形状的数据库，然后那实际桥梁的点云与数据库做对比，探索可能的变形机制，进行确定拱脚位移量。详细==待补充==
 
+    * material
+
+      * [__`材料识别`__] [Automatic classification of common building materials from 3D terrestrial laser scan data]()
+
+        --> using one-class support vector machine (OC-SVM) method and support vector data description (SVDD) method with assistance of features such as **material reflectance**, **colour** and **surface roughness** to classify material by point clouds
+
     * 灾后分析
 
-      * [__`地震`__]
+      * [__`地震`__] [Applications of laser scanning to structures in laboratory tests and field surveys](https://kdocs.cn/l/saI80eKIWDtx)
 
-        -->==待补充==
+        --> 这篇文章主要讲述了LS在实验变形监测以及灾后变形评估方面的应用，实验变形监测方法中规中矩，但是在**建筑物位移以及扭转**的评估方面，所用方法较好，主要通过不同水平截面的关键点计算偏移向量，值得借鉴。
+
+      * [__`地震`__] [A laser scanning-based method for fast estimation of seismic-induced building deformations]()
+
+        --> ==待补充==
 
       
 
@@ -79,3 +101,9 @@
       --> 从 labelled point clusters 开始，重点放在 fitting step，提出 slicing-based object fitting method 来生成孪生数字几何模型，并提出 cloud-to-cloud distance-based metrics 来评估结果的准确性
 
     * gbxml
+
+---
+
+* In practical circumstances
+* In all of the above studies
+
