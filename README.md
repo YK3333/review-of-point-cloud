@@ -1,4 +1,35 @@
 # review-of-point-cloud
+### [Toc]
+**1. Introduction**
+	Instrument
+	Laser scanning, photography
+
+**2. Data processing**
+	2.1 Registration
+	2.2 Segmentation and clustering
+	2.3 Fitting method
+	2.4 Object detection and classification
+**3. Dimension quality assessment**
+	Dimension and position of prefabricated elements
+**4. Structural damage assessment**
+	4.1. global and local deformation
+	4.2. crack
+		directly on points cloud
+		combined with image
+4.3. spalling
+	such surface quality
+**5. Structural performance assessment**
+	5.1. FE model generation
+	5.2. Model updating (parameters such as modulus and passion ratio) and validation
+	5.3. Structural nonlinear analysis
+**6. Combination with BIM**
+	6.1. life-circle documentation
+	6.2. visualization
+**7. Conclusions**
+	In this work
+**Acknowledgments**
+
+**References**
 ---
 1. <span style="color:red;font-weight:bold">segmentation (base processing)</span>
    
@@ -11,27 +42,27 @@
       --> 分割混凝土拱桥的点云
     
 2. <span style="color:red;font-weight:bold">dimensional quality assessment (DQA)</span>
-   
+
     * [__`rebar|concrete cover`__] [Automated dimensional quality assessment for formwork and rebar of reinforced concrete components using 3D point cloud data](https://kdocs.cn/l/sfr2Gi37urGF)
-    
+
       --> 在浇筑混凝土前，评估钢筋位置 {a noise removal algorithm|PCA|RANSAC}
-    
+
     * [__`dimensional and surface quality`__] [A framework for dimensional and surface quality assessment of precast concrete elements using BIM and 3D laser scanning](https://kdocs.cn/l/strjem8y7vN3)
-    
+
       --> 提到激光扫描的参数优化
       
     * [__`dimension of panels`__] [Automated dimensional quality assessment of precast concrete panels using terrestrial laser scanning](https://kdocs.cn/l/ssGVs4Sw0Xns)
-    
+
       --> 这篇文章是比较正常的流程：_Data pre-processing_ --> _Edge and corner extraction_ -->  _Compensation for edge dimension loss_ --> _Dimension estimation and quality assessment_
-    
+
       文章还提出一个边缘点提取的算法，即 **Vector-Sum Algorithm**
-    
+
       讨论激光扫描的三个参数问题：<span style="color:green;">Scan distance  Angular resolution Incident angle</span>
-    
+
     * [__`组合结构装配关系`__]
-    
+
     * [__`脚手架安全性`__]
-    
+
 3. <span style="color:red;font-weight:bold">finite element model (FEA)</span>
 
     * [__`voxel-based`__] [From Laser Scanning to Finite Element Analysis of Complex Buildings by Using a Semi-Automatic Procedure](https://kdocs.cn/l/samrAcuI4TZk)
