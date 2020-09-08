@@ -1,8 +1,9 @@
 # review-of-point-cloud
 ### [Toc]
 * **1. Introduction**
+
   Instrument
-  
+
   Laser scanning, photography
 
 * **2. Data processing**
@@ -41,6 +42,7 @@
   * visualization
   
 * **7. Conclusions**
+  
   In this work
   
 * **Acknowledgments**
