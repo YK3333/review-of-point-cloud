@@ -128,7 +128,7 @@
 		[3D FEM model development from 3D optical measurement technique applied to corroded steel bars](https://www.kdocs.cn/p/84659343276)
 	        --> 对腐蚀钢筋进行扫描建模，分析其疲劳荷载下的应力。
 		
- * [__`构件挠度位移检测`__] [Deformation tracking in 3D point clouds via statistical sampling of direct cloud-to-cloud distances. ](https://www.kdocs.cn/p/84659638483)
+     * [__`构件挠度位移检测`__] [Deformation tracking in 3D point clouds via statistical sampling of direct cloud-to-cloud distances. ](https://www.kdocs.cn/p/84659638483)
 	        --> 以一个小组件为例，利用点云进行变形检测
 		
 * structure
