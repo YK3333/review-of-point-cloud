@@ -122,13 +122,13 @@
 
 * deformation
 
-        * [__`单独构件分析`__] [Damage Detection and Finite-Element Model Updating of Structural Components through Point Cloud Analysis](https://www.kdocs.cn/p/84658480774)
+     * [__`单独构件分析`__] [Damage Detection and Finite-Element Model Updating of Structural Components through Point Cloud Analysis](https://www.kdocs.cn/p/84658480774)
 	        --> 对于简单构件，在构件上打不同的孔作为缺陷，检测了缺陷的大小并与实际值作了比较；Ansys里生成了fem，做了简单的应力分析比较；对点云的密度选择和fem的mesh大小做了了敏感性比较
 		
 		[3D FEM model development from 3D optical measurement technique applied to corroded steel bars](https://www.kdocs.cn/p/84659343276)
 	        --> 对腐蚀钢筋进行扫描建模，分析其疲劳荷载下的应力。
 		
-	 * [__`构件挠度位移检测`__] [Deformation tracking in 3D point clouds via statistical sampling of direct cloud-to-cloud distances. ](https://www.kdocs.cn/p/84659638483)
+ * [__`构件挠度位移检测`__] [Deformation tracking in 3D point clouds via statistical sampling of direct cloud-to-cloud distances. ](https://www.kdocs.cn/p/84659638483)
 	        --> 以一个小组件为例，利用点云进行变形检测
 		
 * structure
